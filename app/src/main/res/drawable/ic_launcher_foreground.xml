@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Monr wave-arch emblem styled from logo images: flowing cyan wave and white arch -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeWidth="7"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M32,68 V48 C32,38 42,36 48,46 C52,36 64,36 68,46 V68">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="32"
+                android:startY="36"
+                android:endX="68"
+                android:endY="68"
+                android:type="linear">
+                <item android:color="#7C3AED" android:offset="0.0" />
+                <item android:color="#2563EB" android:offset="0.4" />
+                <item android:color="#22D3EE" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Center node dot glowing electric cyan -->
+    <path
+        android:pathData="M50,44m-3.5,0a3.5,3.5 0 1,1 7,0a3.5,3.5 0 1,1 -7,0"
+        android:fillColor="#22D3EE" />
+    <!-- Peer node dot on right -->
+    <path
+        android:pathData="M68,44m-2.5,0a2.5,2.5 0 1,1 5,0a2.5,2.5 0 1,1 -5,0"
+        android:fillColor="#67E8F9" />
+</vector>
